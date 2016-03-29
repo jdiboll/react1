@@ -1,13 +1,16 @@
+import React from 'react';
+
+
+
 export default class Cats extends React.Component {
 render() {
   return (
-    <div class="dex">
-      <div class="octo">
-        <img src="https://octodex.github.com/images/nyantocat.gif">
+    <div className="dex">
+      <div className="octo">
+        <img src="https://octodex.github.com/images/nyantocat.gif"/>
       </div>
       <div className="octo">
         <img src="https://octodex.github.com/images/welcometocat.png"/>
-      
       </div>
       <div className="octo">
         <img src="https://octodex.github.com/images/filmtocat.png"/>
@@ -39,9 +42,10 @@ render() {
       <div className="octo">
         <img src="https://octodex.github.com/images/grim-repo.jpg"/>
       </div>
+    </div>
     );
-  }
-}
+  };
+};
 
 
 
